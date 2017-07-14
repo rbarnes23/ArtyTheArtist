@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/slideshows"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="1dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dip"
+        android:paddingTop="1dip"
+        android:text="@string/slideshowtitle"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerslideshows"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+		android:layout_toLeftOf="@+id/saveBtn"
+        android:paddingTop="10dp"
+        android:textColor="@color/blue"
+        android:dropDownWidth="wrap_content"
+        android:saveEnabled="true"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_toLeftOf="@+id/deleteBtn"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="10sp"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/boldText"
+        android:text="@string/savetext" />
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:minWidth="50dp"      
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="10sp"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/boldText"
+        android:text="@string/deleteimage" />
+    
+    <TextView
+        android:id="@+id/slideshowheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideshows"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/slideshowdelay"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/slideshowseconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="20dp"
+        android:layout_below="@+id/slideshows"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/slideshowheader"
+        android:background="@drawable/rounded_edges_blue"
+        android:paddingBottom="5dip"
+        android:paddingRight="0dip"
+        android:paddingTop="5dip"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <SeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/slideshowdelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinnerslideshows"
+        android:layout_toRightOf="@+id/slideshowseconds"
+        android:max="60"
+        android:maxHeight="10dip"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="1dip"
+        android:progress="30" >
+    </SeekBar>
+
+    <RadioGroup
+        android:id="@+id/radiocheckedgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideshowdelay"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/radioclearall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkboxselector"
+            android:checked="false"
+            android:paddingRight="10dp"
+            android:text="@string/clearselectedimages"
+            android:textColor="@color/blue"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/radioselectall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkboxselector"
+            android:text="@string/selectallimages"
+            android:textColor="@color/blue"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/imageselectionheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiocheckedgroup"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="1dp"
+        android:paddingTop="5dp"
+        android:text="@string/imageselectioninstruction"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/boldText"
+        android:textSize="18sp"
+        android:enabled="false"
+        android:text="@string/loading" />
+
+    <GridView
+        android:id="@+id/ImageGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/selectBtn"
+        android:layout_below="@+id/imageselectionheader"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</RelativeLayout>

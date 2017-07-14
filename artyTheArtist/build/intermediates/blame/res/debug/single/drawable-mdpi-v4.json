@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/tokenLibrary/build/intermediates/bundles/default/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-mdpi-v4/chatgroup.jpg",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/drawable-mdpi/chatgroup.jpg"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-mdpi-v4/classroomgroup.jpg",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/drawable-mdpi/classroomgroup.jpg"
+    }
+]

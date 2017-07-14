@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.artytheartist"
+    android:installLocation="auto"
+    android:versionCode="12"
+    android:versionName="1.31">
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS" >
+    </uses-permission>
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.artytheartist.SplashActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        
+        <activity
+            android:name="com.artytheartist.FriendsDetail"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.artytheartist.FriendsActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        
+        <activity
+            android:name="com.artytheartist.ContactDetail"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        
+        <activity
+            android:name="com.artytheartist.NewUser"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.artytheartist.ChangePassword"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.artytheartist.AppSettings"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.artytheartist.Images"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity android:name="com.artytheartist.InfoWebActivity" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArtyTheArtist.iml" filepath="$PROJECT_DIR$/ArtyTheArtist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artyTheArtist/artyTheArtist.iml" filepath="$PROJECT_DIR$/artyTheArtist/artyTheArtist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ediLibrary/ediLibrary.iml" filepath="$PROJECT_DIR$/ediLibrary/ediLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/securityLibrary/securityLibrary.iml" filepath="$PROJECT_DIR$/securityLibrary/securityLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tokenLibrary/tokenLibrary.iml" filepath="$PROJECT_DIR$/tokenLibrary/tokenLibrary.iml" />
+    </modules>
+  </component>
+</project>

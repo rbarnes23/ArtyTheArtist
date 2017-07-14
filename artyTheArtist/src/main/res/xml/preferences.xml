@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="account_category"
+        android:title="@string/accountcategorytitle" >
+        <Preference
+            android:key="newuser"
+            android:summary="@string/newusersummary"
+            android:title="@string/newusertitle" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.artytheartist.NewUser"
+                android:targetPackage="com.artytheartist" >
+                <extra
+                    android:name="memberid"
+                    android:value="0" />
+            </intent>
+        </Preference>
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogMessage="@string/loginsettingdialogmessage"
+            android:dialogTitle="@string/loginsettingdialogtitle"
+            android:hint="@string/loginsettingshint"
+            android:key="login_settings"
+            android:summary="@string/loginsettingsummary"
+            android:title="@string/loginsettingstitle" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:dependency="login_settings"
+            android:dialogIcon="@drawable/appicon"
+            android:dialogMessage="@string/loginmemberiddialogmessage"
+            android:dialogTitle="@string/loginmemberiddialogtitle"
+            android:enabled="true"
+            android:key="login_memberid"
+            android:summary="@string/loginmemberidsummary"
+            android:title="@string/loginmemberidtitle" />
+
+        <Preference
+            android:dependency="login_settings"
+            android:key="changepassword"
+            android:summary="@string/changepasswordsummary"
+            android:title="@string/changepasswordtitle" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.artytheartist.ChangePassword"
+                android:targetPackage="com.artytheartist" >
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="network_category"
+        android:title="@string/networkingcategory_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="login_settings"
+            android:key="networkingonoff"
+            android:summary="@string/networkingonoff_summary"
+            android:title="@string/networkingonoff_title" />
+
+        <EditTextPreference
+            android:defaultValue="@string/networkiddefault"
+            android:dependency="login_settings"
+            android:dialogIcon="@drawable/appicon"
+            android:dialogMessage="@string/networkiddalogmessage"
+            android:dialogTitle="@string/networkiddialogtitle"
+            android:enabled="true"
+            android:key="networkid"
+            android:summary="@string/networkidsummary"
+            android:title="@string/networkidtitle" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

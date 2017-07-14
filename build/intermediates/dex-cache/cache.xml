@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a67ce09b2ebe09511518c2aa458d733680baf276">
+        <dex dex="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e574ab1208f83b781740765587ee77eaa4566ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1c7246eeca295f5a4bfdbfe776a3920d5b3cb2ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marion/AndroidStudioProjects/ArtyTheArtist/securityLibrary/build/intermediates/bundles/default/libs/common-lang3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3570bb34029a2bc3ba42f411a587659da1bea317">
+        <dex dex="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/8/common-lang3_827170e13dc756bc2ca2b1a72b91d15eab8ff429/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/libs/org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_0964202bd5f26daa9a9956432503c53d4144fad6/classes.dex" />
+    </item>
+
+</items>

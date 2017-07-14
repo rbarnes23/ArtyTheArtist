@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/securityLibrary/build/intermediates/bundles/default/res/menu/main.xml"
+    }
+]

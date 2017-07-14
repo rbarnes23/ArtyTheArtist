@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/xml/progress_drawable.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/xml/progress_drawable.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/xml/shapegradient.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/xml/shapegradient.xml"
+    }
+]

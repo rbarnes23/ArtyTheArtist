@@ -1,0 +1,10 @@
+#Fri Jul 14 15:41:10 EDT 2017
+renamed.2=classes.dex
+renamed.1=classes2.dex
+renamed.0=classes3.dex
+base.2=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/8/common-lang3_827170e13dc756bc2ca2b1a72b91d15eab8ff429
+base.1=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_bab23802972eec3bee8a6755c3f1cb937732b265
+base.0=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_0964202bd5f26daa9a9956432503c53d4144fad6
+file.2=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/8/common-lang3_827170e13dc756bc2ca2b1a72b91d15eab8ff429/classes.dex
+file.1=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_bab23802972eec3bee8a6755c3f1cb937732b265/classes.dex
+file.0=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_0964202bd5f26daa9a9956432503c53d4144fad6/classes.dex

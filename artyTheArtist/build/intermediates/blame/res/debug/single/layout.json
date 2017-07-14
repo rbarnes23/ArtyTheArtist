@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/securityLibrary/build/intermediates/bundles/default/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/samplegalleryitem.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/samplegalleryitem.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/sdcard.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/sdcard.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/viewlayout.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/viewlayout.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/arttoolsheader.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/arttoolsheader.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/friends_main.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/friends_main.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/newfile.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/newfile.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/changepass.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/changepass.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/child_row.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/child_row.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/memberheader.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/memberheader.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/picture.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/picture.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/images.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/images.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/galleryitem.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/galleryitem.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/tcplist_item.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/tcplist_item.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/memberrowlist.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/memberrowlist.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/stoprowlist.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/stoprowlist.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/group_heading.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/group_heading.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/list_contacts_details.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/list_contacts_details.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/vcrbuttons.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/vcrbuttons.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/friendsrowlist.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/friendsrowlist.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/newuser.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/newuser.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/messagerowlist.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/messagerowlist.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/seekbar.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/seekbar.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/imageheader.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/imageheader.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/spinner_layout.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/spinnerrow.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/spinnerrow.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/galleryitem2.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/galleryitem2.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/infowebview.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/infowebview.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/image_drawable.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/image_drawable.xml"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/layout/appinfo.xml",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/layout/appinfo.xml"
+    }
+]

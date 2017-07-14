@@ -1,0 +1,30 @@
+<shape android:shape="ring" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="4"
+    android:thicknessRatio="8"
+    android:useLevel="false">
+    <gradient android:type="sweep" 
+        android:useLevel="false"
+        android:angle="90"
+        android:gradientRadius="326"
+        android:startColor="#FFFF0000" 
+        android:centerY=".5"
+        android:endColor="#FFFF00FF"
+         />
+    
+    <gradient android:type="sweep" 
+        android:useLevel="false"
+        android:startColor="#FF0000FF"
+        android:angle="90"
+         android:gradientRadius="360" 
+        android:centerY=".5"
+        android:endColor="#FF00FFFF" />
+    <gradient android:type="sweep" 
+        android:useLevel="false"
+        android:startColor="#FF00FF00"
+        android:angle="90"
+        android:gradientRadius="10" 
+        android:centerY=".5"
+        android:endColor="#FFFFFF00" />
+    
+</shape>
+

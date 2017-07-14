@@ -1,0 +1,7 @@
+#Fri Jul 14 15:41:17 EDT 2017
+base.0=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1c7246eeca295f5a4bfdbfe776a3920d5b3cb2ca
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e574ab1208f83b781740765587ee77eaa4566ba/classes.dex
+base.1=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e574ab1208f83b781740765587ee77eaa4566ba
+file.0=/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1c7246eeca295f5a4bfdbfe776a3920d5b3cb2ca/classes.dex

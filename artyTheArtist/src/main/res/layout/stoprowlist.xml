@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stop_row_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="horizontal"
+    android:paddingBottom="6dip"
+    android:paddingTop="4dip" >
+
+    <TextView
+        android:id="@+id/stops"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:text="SToPS:"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/stopno"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/stops"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="stopno"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/N102"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/stops"
+        android:layout_toRightOf="@+id/stopno"
+        
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="N102"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/N301"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/N102"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="N301"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/N401"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/N301"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="N401"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/N402"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+                android:layout_below="@+id/N301"
+        android:layout_toRightOf="@+id/N401"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="N402"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/N403"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+                android:layout_below="@+id/N301"
+        android:layout_toRightOf="@+id/N402"
+        android:gravity="left"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:text="N403"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible" >
+    </TextView>
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/N401"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:layout_marginTop="22dip"
+        android:text="Information:"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" >
+    </TextView>
+        <TextView
+        android:id="@+id/appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/information"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:layout_marginTop="22dip"
+        android:text="Appointment:"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" >
+    </TextView>
+        <TextView
+        android:id="@+id/contactinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/appointment"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:layout_marginTop="22dip"
+        android:text="Contact Info:"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" >
+    </TextView>
+        <TextView
+        android:id="@+id/orderinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_below="@+id/contactinfo"
+        android:layout_toRightOf="@+id/stopno"
+        android:paddingLeft="22dip"
+        android:paddingRight="2dip"
+        android:layout_marginTop="22dip"
+        android:text="order Info:"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" >
+    </TextView>    
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/thumbImage2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/appicon36"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@+id/image"
+        android:padding="3dip"
+        android:text="Colony"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinnersessionheader"
+        android:layout_marginLeft="5dip"
+        android:gravity="bottom"
+        android:padding="2dip"
+        android:text="Select All"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gray"
+        android:visibility="gone" />
+    
+
+</LinearLayout>

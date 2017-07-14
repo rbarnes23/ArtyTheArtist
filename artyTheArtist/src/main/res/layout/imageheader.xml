@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dip"
+    android:id="@+id/imageheader" >
+
+        <include
+            android:id="@+id/vcr"
+            layout="@layout/vcrbuttons" />
+    <Spinner
+        android:id="@+id/spinnerimageheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vcr"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible" />
+    <Spinner
+        android:id="@+id/showhideeditheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerimageheader"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:entries="@array/showhideedit"
+        android:visibility="visible" />
+    
+</RelativeLayout>

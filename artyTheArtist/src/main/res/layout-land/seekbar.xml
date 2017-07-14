@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stroke"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="top" >
+
+       <RadioGroup
+        android:id="@+id/radiostroketype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radionormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/normal"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/radioblur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blur"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/radioemboss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emboss"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/radioglow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/glow"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="12dp" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/strokewidthheader"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:layout_below="@+id/radiostroketype"
+        android:text="@string/stroketext"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    
+    <SeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/strokewidth"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strokewidthheader"
+        android:max="50"
+        android:maxHeight="12dip"
+        android:paddingTop="0dip"
+        android:progress="14"
+        android:thumb="@drawable/brushwidth" >
+
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/stroketext"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:text="@string/brushwidth"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@+id/strokewidthheader"
+        android:layout_below="@+id/radiostroketype"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/textsizeheader"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strokewidth"
+        android:gravity="center"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:text="@string/textsizetext"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textsizetext"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:text="@string/textwidth"
+        android:layout_below="@+id/strokewidth"
+		android:layout_toRightOf="@+id/textsizeheader"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/eraserwidthheader"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiostroketype"
+        android:layout_toRightOf="@+id/strokewidthheader"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:paddingLeft="20dp"
+        android:text="@string/eraserwidth"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    
+        <SeekBar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/eraserwidth"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eraserwidthheader"
+            android:layout_toRightOf="@+id/strokewidth"
+            android:max="100"
+            android:progress="50"
+            android:maxHeight="12dip"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dip"
+            android:thumb="@drawable/drawerasericon" >
+
+    </SeekBar>
+
+        <TextView
+            android:id="@+id/erasertext"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/eraserwidth"
+            android:layout_below="@+id/radiostroketype"
+            android:layout_toRightOf="@+id/eraserwidthheader"
+            android:gravity="left"
+            android:paddingBottom="0dip"
+            android:paddingLeft="5dp"
+            android:paddingTop="0dip"
+            android:text="@string/eraserwidthvalue"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+
+        <SeekBar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textsize"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textsizeheader"
+            android:layout_toLeftOf="@+id/eraserwidth"
+            android:max="300"
+            android:progress="40"
+            android:maxHeight="12dip"
+            android:paddingTop="0dip"
+            android:thumb="@drawable/t" />
+    
+</RelativeLayout>

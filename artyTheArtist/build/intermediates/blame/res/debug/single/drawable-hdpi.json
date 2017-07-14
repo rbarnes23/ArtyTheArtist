@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-hdpi/bg_striped_img.png",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/drawable-hdpi/bg_striped_img.png"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-hdpi/appicon.png",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/drawable-hdpi/appicon.png"
+    },
+    {
+        "merged": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/build/intermediates/res/merged/debug/drawable-hdpi/bg_striped_split_img.png",
+        "source": "/home/marion/AndroidStudioProjects/ArtyTheArtist/artyTheArtist/src/main/res/drawable-hdpi/bg_striped_split_img.png"
+    }
+]

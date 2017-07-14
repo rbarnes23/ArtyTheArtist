@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stroke"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+
+   
+    <TextView
+        android:id="@+id/strokewidthheader"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/stroketext"
+
+        android:textSize="16sp" />
+    
+    
+    <SeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/strokewidth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="14"
+        android:paddingTop="0dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_below="@+id/strokewidthheader"
+        android:thumb="@drawable/brushwidth" >
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/stroketext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:layout_below="@+id/strokewidth"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/eraserwidthheader"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/eraserwidth"
+        android:layout_below="@+id/stroketext"
+        android:textSize="16sp" />
+    
+    
+    <SeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/eraserwidth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:paddingTop="0dp"
+        android:layout_below="@+id/eraserwidthheader"
+        android:thumb="@drawable/drawerasericon" >
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/erasertext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+		android:layout_below="@+id/eraserwidth"
+        android:textSize="16sp" />
+        <TextView
+        android:id="@+id/textsizeheader"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/textsizetext"
+        android:layout_below="@+id/erasertext"
+        android:textSize="16sp" />
+    
+    
+    <SeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textsize"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="300"
+        android:progress="40"
+        android:paddingTop="0dp"
+        android:layout_below="@+id/textsizeheader"
+        android:thumb="@drawable/t" >
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/textsizetext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+		android:layout_below="@+id/textsize"
+        android:textSize="16sp" />
+    
+    <RadioGroup
+        android:id="@+id/radiostroketype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/strokewidthheader" >
+
+        <RadioButton
+            android:id="@+id/radionormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/normal"
+            android:textSize="14dp" />
+
+        <RadioButton
+            android:id="@+id/radioblur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blur"
+            android:textSize="14dp" />
+
+        <RadioButton
+            android:id="@+id/radioemboss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emboss"
+            android:textSize="14dp" />
+
+        <RadioButton
+            android:id="@+id/radioglow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/glow"
+            android:textSize="14dp" />
+    </RadioGroup>
+
+</RelativeLayout>

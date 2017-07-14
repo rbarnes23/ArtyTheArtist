@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/group_default">
+    <item
+        android:id="@+id/sessionsetup"
+        android:icon="@drawable/gradient"
+        android:title="@string/friendstext"
+        android:titleCondensed="@string/friendstext">
+    </item>
+        
+        <item
+        android:id="@+id/friends"
+        android:icon="@drawable/friends"
+        android:title="@string/friendstext"
+        android:titleCondensed="@string/friendstext">
+    </item>
+    <item
+        android:id="@+id/setup"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/setuptext"
+        android:titleCondensed="@string/setuptext">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/abouttext"
+        android:titleCondensed="@string/abouttext">
+    </item>
+    </group>
+</menu>

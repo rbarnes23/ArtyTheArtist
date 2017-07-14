@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arttoolsheader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/arttoolsheaderinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip"
+        android:text="@string/tools"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/img_restore"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/appicon36"
+        android:text="1"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_color"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/colorline"
+        android:text="2"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_brush"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/brush"
+        android:text="3"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_clear"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/clearme"
+        android:text="4"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_erase"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/drawerasericon"
+        android:text="5"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_colorsampler"
+        style="@style/ImageMenu"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:checked="true"
+        android:onClick="ClickHandler"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/eyedropper"
+        android:text="6"
+        android:textAppearance="@style/smallText"
+        android:textColor="@color/blue" />
+
+    <ImageView
+        android:id="@+id/img_save"
+        style="@style/ImageMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/savetext"
+        android:onClick="ClickHandler"
+        android:src="@android:drawable/ic_menu_save" />
+
+    <ImageView
+        android:id="@+id/img_share"
+        style="@style/ImageMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/send_to"
+        android:onClick="ClickHandler"
+        android:src="@android:drawable/ic_menu_share" />
+
+    <ImageView
+        android:id="@+id/img_information"
+        style="@style/ImageMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/information"
+        android:onClick="ClickHandler"
+        android:src="@android:drawable/ic_dialog_info" />
+
+</LinearLayout>

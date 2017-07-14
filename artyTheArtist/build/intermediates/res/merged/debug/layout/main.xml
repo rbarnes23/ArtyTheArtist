@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/buttonbar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="0dip"
+        android:background="@color/gray"
+        android:gravity="top"
+        android:padding="0dip"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/goback"
+            android:onClick="ClickHandler"
+            android:src="@drawable/gallery_arrow_left"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_overflow"
+            android:contentDescription="@string/goforward"
+            android:onClick="ClickHandler"
+            android:src="@drawable/gallery_arrow_right" />
+
+        <ImageView
+            android:id="@+id/img_overflow"
+            style="@style/ImageMenu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:contentDescription="@string/redo"
+            android:onClick="ClickHandler"
+            android:paddingTop="0dp"
+            android:src="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+            android:visibility="visible" />
+
+        <HorizontalScrollView
+            android:id="@+id/hzmenu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/next"
+            android:layout_toRightOf="@+id/previous"
+            android:background="@android:color/transparent"
+            android:fadingEdgeLength="30dp"
+            android:scrollbarSize="2dp" >
+
+            <!-- android:scrollbarTrackHorizontal="@drawable/online" -->
+
+            <LinearLayout
+                android:id="@+id/menubar"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:fadeScrollbars="true"
+                android:gravity="center_vertical"
+                android:padding="0dp"
+                android:scrollbarFadeDuration="1000" >
+
+                <ImageView
+                    android:id="@+id/img_imageslist"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/slideshow"
+                    android:contentDescription="Images"
+                    android:onClick="ClickHandler"
+                    android:padding="2dp"
+                    android:text="Images"
+                    android:textColor="@color/blue"
+                    android:textAppearance="@style/smallText"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_messagelist"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/chatbird"
+                    android:contentDescription="@string/messages"
+                    android:onClick="ClickHandler"
+                    android:padding="2dp"
+                    android:text="Messages"
+                    android:textColor="@color/blue"
+                    android:textAppearance="@style/smallText"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_memberlist"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/classroomgroupa"
+                    android:contentDescription="Members"
+                    android:onClick="ClickHandler"
+                    android:padding="2dp"
+                    android:text="Members"
+                    android:textColor="@color/blue"
+                    android:textAppearance="@style/smallText"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_arttools"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/restoretext"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/art" />
+        <com.artytheartist.ToolsSpinner
+            android:id="@+id/spinnerTools"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:paddingTop="3dp"
+            android:prompt="@string/tools"
+            android:visibility="gone" />
+                
+                <ImageView
+                    android:id="@+id/img_restore"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/restoretext"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/appicon36" 
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/img_color"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/color"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/colorline" 
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/img_brush"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@string/brush"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/brush"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_text"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:contentDescription="@string/redo"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/bigt"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_clear"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/cleartext"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/clearme"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_erase"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/erasetext"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/drawerasericon"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/img_undo"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/undo"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/undosmall"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_redo"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/redo"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/redobuttonsmall"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/img_colorsampler"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/colorsampler"
+                    android:onClick="ClickHandler"
+                    android:src="@drawable/eyedropper"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_save"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/savetext"
+                    android:onClick="ClickHandler"
+                    android:visibility="gone" 
+                    android:src="@android:drawable/ic_menu_save" />
+
+                <ImageView
+                    android:id="@+id/img_share"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/send_to"
+                    android:onClick="ClickHandler"
+                    android:src="@android:drawable/ic_menu_share" 
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_information"
+                    style="@style/ImageMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/information"
+                    android:onClick="ClickHandler"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:visibility="gone"  />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/draw_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:visibility="visible" >
+
+        <Spinner
+            android:id="@+id/spinnerfont"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:paddingTop="3dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_fonttype"
+            style="@style/ImageMenu"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:clickable="true"
+            android:contentDescription="@string/redo"
+            android:onClick="ClickHandler"
+            android:paddingTop="3dp"
+            android:src="@drawable/flogo"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/img_protractor"
+            style="@style/ImageMenu"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_toRightOf="@+id/img_fonttype"
+            android:clickable="true"
+            android:contentDescription="@string/redo"
+            android:onClick="ClickHandler"
+            android:paddingTop="3dp"
+            android:src="@drawable/protractor"
+            android:visibility="visible" />
+
+        <!-- android:layout_centerVertical="true" -->
+
+        <EditText
+            android:id="@+id/draw_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/img_protractor"
+            android:background="@android:color/white"
+            android:gravity="top"
+            android:hint="@string/textentryhint"
+            android:inputType="textMultiLine"
+            android:layoutDirection="locale"
+            android:scrollHorizontally="true"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/cleartext"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_toRightOf="@id/draw_text"
+                android:background="@drawable/delete"
+                android:onClick="ClickHandler"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_message"
+                style="@style/ImageMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/cleartext"
+                android:clickable="true"
+                android:contentDescription="@string/redo"
+                android:onClick="ClickHandler"
+                android:paddingTop="0dp"
+                android:src="@android:drawable/sym_action_chat"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:id="@+id/horizScrollLayout">
+
+        <com.artytheartist.DrawView
+            android:id="@+id/DrawView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/skyblue"
+            android:cacheColorHint="#00000000"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/imageslist"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/snow"
+            android:cacheColorHint="#00000000"
+            android:padding="5dp"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/messagelist"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageslist"
+            android:background="@color/snow"
+            android:cacheColorHint="#00000000"
+            android:padding="5dp"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/memberlist"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/messagelist"
+            android:background="@color/snow"
+            android:cacheColorHint="#00000000"
+            android:padding="5dp"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+       <ListView
+            android:id="@+id/arttoolslist"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/snow"
+            android:cacheColorHint="#00000000"
+            android:padding="5dp"
+            android:textColor="@color/blue"
+            android:visibility="visible" />
+       
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edges"
+            android:gravity="center_horizontal"
+            android:text="@string/nofriends"
+            android:textColor="@color/blue"
+            android:textSize="22sp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnersession"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="right"
+            android:paddingTop="3dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

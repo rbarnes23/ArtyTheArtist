@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slideshowInterval">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7"/>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+        <item name="15">15</item>
+        <item name="30">30</item>
+        <item name="45">45</item>
+        <item name="60">60</item>
+    </string-array>
+    <string name="about_menu_name">Acerca de</string>
+    <string name="about_message">Arty del Artista.\n\nVisit http://artytheartist.com
+		para más información.</string>
+    <string name="abouttext">Acerca de</string>
+    <string name="acceptfriend">Aceptar Amigo</string>
+    <string name="accountcategorytitle">Account Settings</string>
+    <string name="activefriends">Amigos Activos</string>
+    <string name="addfriends">Agregar amigos</string>
+    <string name="angle">Angulo</string>
+    <string name="app_name">Artista Arty</string>
+    <string name="background">Establecer fondo.​​</string>
+    <string name="blur">Desenfoque</string>
+    <string name="brush">Ajustes del pincel</string>
+    <string name="brushwidth">10</string>
+    <string name="cancel">Cancelar</string>
+    <string name="changepasswordmessage">Usted no será capaz de ver su información en
+<a>http://artytheartist.com</a>	a menos que conozca la contraseña.
+</string>
+    <string name="changepasswordsummary">Marque la casilla para cambiar la contraseña en el
+		inicio de la aplicación. Usted no será capaz de ver la aplicación web
+		a menos que conozca la contraseña.
+</string>
+    <string name="changepasswordtitle">Cambiar contraseña</string>
+    <string name="chat">Charla</string>
+    <string name="clearselectedimages">Borrar las selecciones.</string>
+    <string name="cleartext">Nublado. Si la pantalla no está del todo claro
+		simplemente golpee suavemente en la pantalla y que se debe tener
+		cuidado de ello.
+</string>
+    <string name="color">Color</string>
+    <string name="colormebrushsettingscategorytitle">Color Me Anchura del cepillo</string>
+    <string name="colormebrushsettingsdialogtitle">Ancho cepillo de diálogo</string>
+    <string name="colormebrushsettingsmessage">Ancho cepillo</string>
+    <string name="colormebrushsettingssummary">Cepillo Resumen Ancho</string>
+    <string name="colormebrushsettingstitle">Ancho Seleccione Pincel</string>
+    <string name="colormecategorytitle">Color Me</string>
+    <string name="colormecolorsettingsmessage">Color ID</string>
+    <string name="colormecolorsettingssummary">Resumen Seleccionar color</string>
+    <string name="colormecolortitle">Seleccionar color</string>
+    <string name="colorpickerbackground">Fondo</string>
+    <string name="colorpickerbrush">Brocha</string>
+    <string name="colorpickerexplain">Mueva los dedos alrededor de uno de los círculos
+		exteriores para seleccionar el color. Haga clic en el círculo interno
+		para seleccionar.
+</string>
+    <string name="colorsampler">Muestrarios de Colores</string>
+    <string name="colorsamplerenabled">Muestra de color está habilitado. Haga clic en
+		Icono Sampler de nuevo para apagarlo. Seleccione los colores que te
+		gusta y ellos estarán en una barra de desplazamiento en la parte
+		inferior del Selector de color.
+</string>
+    <string name="colorsamplernotenabled">Muestra de color está desactivada. Haga clic en
+		Icono Sampler de nuevo para activarlo.
+</string>
+    <string name="colorselection">Selección de Color</string>
+    <string name="connectedtoserver">Conectado al servidor</string>
+    <string name="deleteimage">Quitar\nMostrar</string>
+    <string name="deleteplaylist">Retire la lista de reproducción: </string>
+    <string name="durationis">Duración</string>
+    <string name="emailaddress">correo</string>
+    <string name="emboss">Relieve</string>
+    <string name="erasecancel">Cancelado. Haga clic de nuevo en Cancelar</string>
+    <string name="eraserwidth">Ancho del borrador</string>
+    <string name="eraserwidthvalue">50</string>
+    <string name="erasetext">En el modo de borrado. Haga clic de nuevo en
+		Cancelar
+</string>
+    <string name="faq">FAQ</string>
+    <string name="filename">Nombre del archivo</string>
+    <string name="firstname">Primera</string>
+    <string name="fonts">Fuentes</string>
+    <string name="fonts_roboto_thin_ttf">fonts/Roboto-Thin.ttf</string>
+    <string name="friends">Amigos</string>
+    <string name="friendstext">Amigos</string>
+    <string name="friendtoaccept">Amigo Seleccione Aceptar para</string>
+    <string name="friendtoinvite">Seleccione Invitar a amigos</string>
+    <string name="fullname">Nombre</string>
+    <string name="glow">Brillo</string>
+    <string name="goback">Retroceder</string>
+    <string name="goforward">Avanzar</string>
+    <string name="goplay">Reproducir o Pausa</string>
+    <string name="hidefriend">Ocultar Amigo</string>
+    <string name="ignorefriend">Ignorar Amigo</string>
+    <string name="imagedoesnotexist">Ruta a esta imagen no existe. La imagen es
+		probablemente almacenado en caché de Google Drive o Picasa
+</string>
+    <string name="imageselectioninstruction">Seleccionar imagen por imagen individual.
+		Seleccione Casillas de verificación en las imágenes y Iniciar
+		presentación para el modo de presentación de diapositivas.
+</string>
+    <string name="imagesupdating">Imágenes Actualizando…Por favor espere</string>
+    <string name="info">Espera para los amigos…</string>
+    <string name="info_blank"/>
+    <string name="info_wait">Espere por favor…</string>
+    <string name="information">Información</string>
+    <string name="invalidemail">Email no válido</string>
+    <string name="invalidfname">Nombre Invalid</string>
+    <string name="invalidlname">Apellido válido</string>
+    <string name="invalidnewuser">Nuevo usuario válido. Asegúrese de que todos los
+		campos son correctos e inténtelo de nuevo
+</string>
+    <string name="invalidpassword">Contraseña no válida</string>
+    <string name="invite">Invitar</string>
+    <string name="lastname">Apellido</string>
+    <string name="list">Lista</string>
+    <string name="loading">Cargando…</string>
+    <string name="loadingfriends">Carga Friends</string>
+    <string name="loggedin">Activo</string>
+    <string name="login">Entrar</string>
+    <string name="loginmemberiddialogmessage">Ingresar ID del Usuario</string>
+    <string name="loginmemberiddialogtitle">Configuración de la cuenta</string>
+    <string name="loginmemberidsummary">Ingrese su identificación de miembro. Esta es tu
+		id
+		asignado miembro y no debe ser cambiado manualmente.
+</string>
+    <string name="loginmemberidtitle">ID de Miembro</string>
+    <string name="loginsettingdialogmessage">Introduzca la dirección de correo electrónico
+</string>
+    <string name="loginsettingdialogtitle">Configuración de la cuenta</string>
+    <string name="loginsettingshint">artytheartist@mapmymotion.com</string>
+    <string name="loginsettingstitle">Ingreso a la cuenta</string>
+    <string name="loginsettingsummary">Introduzca su dirección de correo electrónico.
+		Usted debe tener una dirección válida de correo electrónico para
+		utilizar la opción de red.
+</string>
+    <string name="memberidnotretrieved">Se ha producido un error. Su número de identificación de miembro no se ha recuperado con éxito</string>
+    <string name="memberidretrieved">Su identificación de miembro fue recuperado con
+		éxito
+</string>
+    <string name="menuinformation">Menú de navegación Se desplaza al mover el dedo
+		hacia la izquierda o derecha para ver más opciones en las pantallas
+		más pequeñas
+</string>
+    <string name="messagenotavailable">Red debe estar encendido para mensajes entre
+		usuarios. Ir a Menú-> Configuración y active la función de red y
+		reiniciar la aplicación.
+</string>
+    <string name="messagesent">Mensaje enviado a sus amigos</string>
+    <string name="networkdown">Red no disponible. Inténtelo de nuevo en unos
+		minutos.
+</string>
+    <string name="networkiddalogmessage">la ID de red.</string>
+    <string name="networkiddefault">96.31.86.129</string>
+    <string name="networkiddialogtitle">la ID de red.</string>
+    <string name="networkidsummary"> la ID de red. El tráfico de red a través del
+		servidor por defecto puede ser restringido. Le recomendamos comprar su
+		propio servidor en sales@mapmymotion.com
+</string>
+    <string name="networkidtitle">ID de red</string>
+    <string name="networkingcategory_title">Red</string>
+    <string name="networkingonoff_summary">Las redes pueden crear enormes cargos por uso de
+		datos basados ​​en su plan de usuario del teléfono celular. Después de
+		activar o desactivar la red, reinicie la aplicación.
+</string>
+    <string name="networkingonoff_title">Redes</string>
+    <string name="networknotavailable">Red no disponible. Ir a Menú-> Configuración y
+		active la función de red y reiniciar la aplicación.
+</string>
+    <string name="newuser">Nuevo usuario</string>
+    <string name="newusermessage">Si su correo electrónico ya ha sido introducido en
+		nuestro sistema y pulse Cancelar y vaya a Preferencias> Menú->
+		Dirección de correo electrónico y escriba su dirección de correo
+		electrónico. Su identificación de miembro será ingresado
+		automáticamente para usted.
+</string>
+    <string name="newusersummary">Haga clic aquí para registrarse para el acceso a la
+		red. Después de la configuración de registro de salida y vuelva a
+		introducir y usted debería ser capaz de configurar los ajustes de red.
+</string>
+    <string name="newusertitle">Miembro Nuevo Registro</string>
+    <string name="noconnectiontoserver">No se puede establecer conexión con</string>
+    <string name="nofriends">Ningún amigo</string>
+    <string name="noimages">No hay imágenes seleccionadas o existe en este
+		dispositivo
+</string>
+    <string name="nomessage">Escriba el texto y haga clic en el icono de mensaje</string>
+    <string name="normal">Normal</string>
+    <string name="notloadingfriends">No se puede cargar amigos. Inténtelo más tarde.
+</string>
+    <string name="opaque">Opaco</string>
+    <string name="orientationchange">Pulse el botón Rehacer si el dibujo no se ve bien
+</string>
+    <string name="pacetext">Pace</string>
+    <string name="password">Contraseña</string>
+    <string name="passwordsdontmatch">No coinciden</string>
+    <string name="protractortitle">Ángulo en grados</string>
+    <string name="redo">Rehacer</string>
+    <string name="register">Registro</string>
+    <string name="restoretext">Restaurar</string>
+    <string name="savetext">Guardar\nMostrar</string>
+    <string name="selectallimages">Seleccionar Todo.</string>
+    <string name="selectfonts">Seleccionar la fuente</string>
+    <string name="selectoneimage">Por favor, seleccione al menos una imagen.</string>
+    <string name="send_to">Enviar a</string>
+    <string name="setuptext">Configuración</string>
+    <string name="sharefile">artytheartist</string>
+    <string name="showfriend">Mostrar Amigo</string>
+    <string name="showhidefriend">Seleccione amiga para mostrar u ocultar</string>
+    <string name="slideshow">Mostrar Imágenes</string>
+    <string name="slideshowcancel">Para cancelar prensa Presentación sobre todo
+		Borrar
+		o elemento de imagen Selección de menú de nuevo.
+</string>
+    <string name="slideshowdelay">Segundos entre imágenes</string>
+    <string name="slideshowsummary">Segundos entre diapositivas</string>
+    <string name="slideshowtitle">Presentaciones</string>
+    <string name="stroketext">Ancho cepillo</string>
+    <string name="textentryhint">Escriba el texto y haga clic en icono de dibujo o mensaje.
+</string>
+    <string name="textsizetext">Tamaño del texto</string>
+    <string name="textwidth">36</string>
+    <string name="transparent">Transparente</string>
+    <string name="undo">Deshacer</string>
+    <string name="uninvite">Anular Invitación</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="waitforacceptance">Esperando Aceptación</string>
+    <string name="waitforconfirmation"> esperar la confirmación antes de pasar de aquí
+</string>
+    <string name="waitforfriends">Carga Friends…</string>
+</resources>
